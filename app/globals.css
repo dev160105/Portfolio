@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&family=Inter:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(102, 192, 244, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 192, 244, 0.7);
+}
+
+/* Firefox scrollbar */
+::-moz-scrollbar {
+  width: 8px;
+}
+
+::-moz-scrollbar-track {
+  background: transparent;
+}
+
+::-moz-scrollbar-thumb {
+  background: rgba(102, 192, 244, 0.4);
+  border-radius: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(102, 192, 244, 0.4) transparent;
+}
+
+body {
+  background-color: #0f1419;
+  color: #c7d5e0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Steam Summer Sale Color Palette */
+:root {
+  --steam-dark: #171a21;
+  --steam-darker: #0f1419;
+  --steam-text: #c7d5e0;
+  --steam-gold: #f3e691;
+  --steam-blue: #1b2838;
+  --steam-accent: #66c0f4;
+}
+
+/* Pixel Art Title */
+.pixel-title {
+  font-family: 'Press Start 2P', monospace;
+  letter-spacing: 0.15em;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.9);
+  color: #f3e691;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .pixel-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .pixel-title {
+    font-size: 1.875rem;
+  }
+}
+
+.pixel-subtitle {
+  font-family: 'VT323', monospace;
+  letter-spacing: 0.1em;
+  color: #f3e691;
+}
+
+.pixel-big {
+  font-family: 'Press Start 2P', monospace;
+  color: #f3e691;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.9);
+}
+
+.pixel-vt {
+  font-family: 'VT323', monospace;
+  color: #f3e691;
+}
+
+/* Steam Card Component */
+.steam-card {
+  @apply bg-slate-900/90 border-4 border-slate-700 p-6;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+  background-color: rgba(23, 26, 33, 0.95);
+  transition: all 0.3s ease;
+}
+
+.steam-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+  border-color: #66c0f4;
+}
+
+/* Floating animation for decorations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.float-slow {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float-medium {
+  animation: float 5s ease-in-out infinite;
+}
+
+.float-fast {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Text colors */
+.text-steam-gold {
+  color: #f3e691;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+
+.text-steam-text {
+  color: #c7d5e0;
+}
+
+.text-steam-accent {
+  color: #66c0f4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pixel-title {
+    font-size: 1.125rem;
+  }
+  
+  .pixel-subtitle {
+    font-size: 0.875rem;
+  }
+}
