@@ -13,7 +13,7 @@ export default function Navbar() {
     { label: '→ Tech Stack', href: '#techstack' },
     { label: '→ About', href: '#about' },
     { label: '→ Contact', href: '#contact' },
-    { label: '📄 RESUME', href: '/Resume/Dev_Dalsania_Resume.pdf', isExternal: true },
+    { label: '📄 RESUME', href: '/Resume/Dev Resume -  Summer 2026.pdf', isExternal: true },
   ];
 
   return (
