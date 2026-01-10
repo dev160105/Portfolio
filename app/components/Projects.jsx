@@ -6,14 +6,14 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     title: 'Flâneur',
-    description: 'Global travel discovery platform with AI-generated itineraries. Plan your next adventure with personalized recommendations.',
+    description: 'Flâneur is a full stack travel discovery application that helps users generate and organize travel itineraries. I built the backend using FastAPI, designed REST APIs for itinerary generation, and connected them to a React and Next.js frontend. The application is deployed on an AWS EC2 instance, and I handled the full deployment process including server setup and backend integration. The focus of this project was system design, API structure, and running a complete application in production.',
     tags: ['React', 'FastAPI', 'AWS', 'Python'],
     link: 'https://dmac1n1fgj3td.cloudfront.net/',
     images: ['/screenshots/flaneur-1.jpg', '/screenshots/flaneur-2.jpg', '/screenshots/flaneur-3.jpg'],
   },
   {
     title: 'MovieFinds',
-    description: 'A fast, intuitive movie search engine. Discover films, explore ratings, and find your next watch.',
+    description: 'MovieFinds is a full stack movie discovery platform that allows users to search, explore, and manage movies. I built the backend API, handled user-related functionality, and connected the system to a frontend interface. This project helped me improve my understanding of backend development, API communication, and building applications where the backend logic drives the user experience.',
     tags: ['Next.js', 'Tailwind CSS', 'Python'],
     link: 'https://movie-finds.vercel.app/',
     images: ['/screenshots/MovieFind1.jpg', '/screenshots/MovieFind2.jpg', '/screenshots/MovieFind3.jpg', '/screenshots/MovieFind4.jpg', '/screenshots/MovieFind5.jpg'],

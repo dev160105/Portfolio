@@ -79,13 +79,13 @@ export default function About() {
             }}
           >
             <p className="text-sm sm:text-base text-[#c7d5e0] mb-4 leading-relaxed">
-              I like building things end to end and understanding what is happening at each layer. I enjoy thinking through backend logic, data models, and how different parts of a system interact once users start using it.
+              I am a Computer Science student at Concordia University who enjoys building systems from the ground up. I like working on backend-heavy problems such as API design, database modeling, and deploying applications that actually run in production.
             </p>
             <p className="text-sm sm:text-base text-[#c7d5e0] mb-4 leading-relaxed">
-              I've built Flâneur, a travel discovery platform, and MovieFinds, a full-stack web app for discovering and organizing movies. Through these projects, I've worked on API design, database structure, and frontend integration without overcomplicating things.
+              I prefer structured problem solving and thinking through edge cases rather than just focusing on UI. A lot of my learning comes from building projects end to end, designing the backend, connecting the frontend, and handling deployment and infrastructure myself.
             </p>
             <p className="text-sm sm:text-base text-[#c7d5e0] leading-relaxed">
-              I care a lot about code quality. I try to keep things simple, readable, and easy to reason about. If something feels unnecessarily complex, I usually step back and rethink it. Outside of coding, I like cooking and trying new recipes, sketching ideas, playing Valorant, and slowly improving at chess.
+              Outside of coursework, I spend most of my time building and refining personal projects, improving my understanding of system design, and writing cleaner, more maintainable code.
             </p>
           </motion.div>
 

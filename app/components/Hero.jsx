@@ -62,7 +62,7 @@ export default function Hero() {
           }}
         >
           <p className="text-base sm:text-lg text-[#c7d5e0] leading-relaxed font-sans">
-            I'm a Computer Science student at Concordia University. I build software because I like solving real problems and seeing things actually work. Most of what I build is web-based, but I care more about how systems behave behind the scenes than just how they look. Right now I'm focused on learning concurrency and distributed systems.
+            I build and deploy full stack applications with a strong focus on backend APIs, system design, and infrastructure. Most of my work runs in production using FastAPI, React, and AWS.
           </p>
         </motion.div>
 
